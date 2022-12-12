@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Weather - APP</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="desableScroll">
+  <header>
+      <section class="menu">
+          <h2 class="logo">WeatherAPP</h2>
+          <section class="hamburger">
+              <img src="img/imenu.svg" alt="menu-icon">
+          </section>
+      </section>
+  
+      <section class="search">
+          <form class="search-form">
+              <input placeholder="Recherche" type="search" class="search-input">
+              <button class="search-btn"><img src="img/isearch.svg" alt="search"></button>
+          </form>
+      </section>
+  </header>
+  <!-- Squelette -->
+  <section class="current squelette">
+      <p class="time"></p>
+      <h3 class="location"></h3>
+      <p class="condition"></p>
+      <section class="details">
+          <section class="left">
+               <p class="temp"></p>
+          </section>
+          <section class="right">
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span></span></p>
+              <p><span> </span></p>
+              <p><span><span></p>
+          </section>
+      </section>
+  </section>
+  <section class="hourly">
+      <h3 class="hourly-header">Prévisions par Heures</h3>
+      <section class="hourly-slider">
+        <!-- dynamically displayed    -->  
+      </section>
+  </section>
+  <section class="daily">
+      <h3 class="daily-header">Prévisions par Jours</h3>
+      <section class="daily-times-carousel">
+          <!--<p class="active">Sun, Apr 01</p>
+          <p>Mon, Apr 02</p>
+          <p>The, Apr 03</p>
+          <p>Sun, May 04</p>
+          <p class="active">Sun, Jan 05</p>
+          <p>Wend, Apr 06</p>
+          <p>Sat, Ap 07</p>
+          <p>frid, Jul 08</p> -->
+      </section>
+      
+      <svg data-v-fce74b1e="" width="28px" height="30px" viewBox="0 0 512 512" class="icon-up" style="transform: rotate(180deg);"><path fill="#FFC119" d="M98.9,184.7l1.8,2.1l136,156.5c4.6,5.3,11.5,8.6,19.2,8.6c7.7,0,14.6-3.4,19.2-8.6L411,187.1l2.3-2.6  c1.7-2.5,2.7-5.5,2.7-8.7c0-8.7-7.4-15.8-16.6-15.8v0H112.6v0c-9.2,0-16.6,7.1-16.6,15.8C96,179.1,97.1,182.2,98.9,184.7z"></path></svg>
+      
+      <section class="daily-slider">
+            
+      </section>
+  </section>
+  <footer class="">
+        <p>Copyright &copy; <span class="footer-date"></span> Knt Bukenya Céleste</p>
+  </footer>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
